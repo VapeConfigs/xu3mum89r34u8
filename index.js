@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Bypassing.,Dixoa Bypass!"];
+const statusMessages = ["Dixoa Bypass!"];
 
 
 let currentIndex = 0;
