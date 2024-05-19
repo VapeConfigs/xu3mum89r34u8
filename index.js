@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["VSign V2 Coming Out Soon!"];
+const statusMessages = ["Dixoa Bypass LLC."];
 
 
 let currentIndex = 0;
