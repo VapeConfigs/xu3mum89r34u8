@@ -11,7 +11,7 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('YaY Your Bot Status Changed✨');
+  res.send('BotGhost Removed!');
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to Robin NTW : http://localhost:${port}`);
@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Dixoa Bypass!"];
+const statusMessages = ["VSign V2 Coming Out Soon!"];
 
 
 let currentIndex = 0;
