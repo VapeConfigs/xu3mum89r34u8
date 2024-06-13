@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Dixoa Bypass LLC."];
+const statusMessages = ["DExecutors aka Download Executors"];
 
 
 let currentIndex = 0;
@@ -43,7 +43,7 @@ function updateStatusAndSendMessages() {
   const nextStatus = statusMessages[(currentIndex + 1) % statusMessages.length];
 
   client.user.setPresence({
-    activities: [{ name: currentStatus, type: ActivityType.Custom}],
+    activities: [{ name: currentStatus, type: ActivityType.Playing}],
     status: 'dnd',
   });
 
