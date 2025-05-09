@@ -14,12 +14,11 @@ app.get('/', (req, res) => {
   res.send('BotGhost Removed!');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to Robin NTW : http://localhost:${port}`);
-  console.log(`🔗 Powered By Robinayush`);
+  console.log(`sup : http://localhost:${port}`);
 });
 
 
-const statusMessages = ["DExecutors aka Download Executors"];
+const statusMessages = ["bleh bleh bleh"];
 
 
 let currentIndex = 0;
@@ -44,7 +43,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Playing}],
-    status: 'dnd',
+    status: 'idle',
   });
 
   
